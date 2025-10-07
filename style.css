@@ -1,7 +1,15 @@
 body {
-    width: 1200px;
+    width: 1600px;
     margin: auto;
     font-family: "Open Sans";
+}
+
+h1 {
+    margin: 0px;
+}
+
+hr {
+border: 2px solid #33836E;
 }
 
 .header{
@@ -42,6 +50,7 @@ body {
     display: flex;
     margin-top: 40px;
     gap: 30px;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -52,7 +61,113 @@ body {
 
 
 .menu-border {
-    border: 1px solid gray;
+    border: 1px solid grey;
     padding: 10px;
     border-radius: 10px;
+}
+
+.tab{
+padding-top: 25px;
+color: rgb(156, 156, 156);
+
+}
+
+.header-all {
+display: flex;
+
+align-items: center;
+padding: 0px;
+gap: 30px;
+}
+
+.heading{
+    font-weight: 700px;
+    font-size: 38px;
+    margin-bottom: 30px;
+    display: flex;
+width: 657px;
+height: 104px;
+left: 150px;
+top: 277px;
+
+}
+
+.text-under-h1{
+font-size: 16px;
+}
+
+.question-block{
+
+}
+
+.contact {
+display: flex;
+
+padding: 0px;
+gap: 5px;
+flex-direction: column;
+align-items: flex-start;
+}
+
+.phone {
+display: block;
+
+padding: 0px;
+gap: 5px;
+}
+
+.ask-block {
+display: flex;
+flex-direction: row;
+margin-top: 30px;
+margin-bottom: 30px;
+padding: 0px;
+gap: 40px;
+}
+
+
+.number{
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+color: #33836E;
+text-decoration: underline #33836E; 
+}
+
+.free-call{
+margin: 0px;
+font-size: 12px;
+color: rgb(184, 184, 184)
+}
+
+.features{
+display: flex;
+
+
+padding: 0px;
+gap: 30px;
+
+/* position: absolute;
+width: 628px;
+height: 24px;
+left: 150px;
+top: 600px;
+ */
+
+}
+
+.feature {
+display: flex;
+
+padding: 0px;
+gap: 10px;
+border-radius: 20px;
+}
+
+.man {
+
+}
+
+.avatar {
+
 }
